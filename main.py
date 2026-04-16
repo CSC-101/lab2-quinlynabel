@@ -82,4 +82,5 @@ second = surprising(words, "such.")
   #What is the value of words at this point? ['this', 'is', 'confusing', 'code', 'AVOID', 'SUCH.']]
   #What are the values of first and second at this point? ['this', 'is', 'confusing', 'code.' 'AVOID', 'SUCH.'], ['this', 'is', 'confusing', 'code.', 'AVOID', 'SUCH.']
   #What happened? Avoid and such were turned into uppercase and added to words. The original list was changed.
-print(first, second)
+print(first)
+print(second)
